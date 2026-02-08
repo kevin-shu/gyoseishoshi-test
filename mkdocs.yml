@@ -1,0 +1,72 @@
+site_name: 日本民法 条文對照與白話講解
+site_description: 行政書士試験準備 — 日本民法の条文対照と平易な解説（日本語・繁体字中国語）
+
+theme:
+  name: material
+  language: ja
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: ダークモードに切り替え
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: ライトモードに切り替え
+  font:
+    text: Noto Sans JP
+    code: Noto Sans Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - content.code.copy
+
+plugins:
+  - search:
+      lang:
+        - ja
+        - zh
+      separator: '[\s\u200b\-_,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+
+nav:
+  - ホーム: index.md
+  - 学習計画: study-plan.md
+  - 民法 第一編 総則:
+      - 第1章 通則: civil-code/book1-general/ch01-general-rules.md
+      - 第2章 人: civil-code/book1-general/ch02-persons.md
+      - 第3章 法人: civil-code/book1-general/ch03-juridical-persons.md
+      - 第4章 物: civil-code/book1-general/ch04-things.md
+      - 第5章 法律行為: civil-code/book1-general/ch05-juridical-acts.md
+      - 第6章 期間の計算: civil-code/book1-general/ch06-periods.md
+      - 第7章 時効: civil-code/book1-general/ch07-prescription.md
+
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.mark
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+copyright: Copyright &copy; 2026 行政書士試験準備資料
