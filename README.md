@@ -21,7 +21,8 @@
 
 ## 資料來源
 
-- [e-Gov 法令検索 — 民法](https://laws.e-gov.go.jp/law/129AC0000000089)（令和 8 年 4 月 1 日施行版 XML）
+- [e-Gov 法令検索 — 民法](https://laws.e-gov.go.jp/law/129AC0000000089) — 原始出處
+  - 本地副本：[`references/civil-code.xml`](references/civil-code.xml)（令和 8 年 4 月 1 日施行版）
 - 翻譯及講解為自行編寫，並與官方 XML 逐條比對校正
 
 ## 本地啟動
