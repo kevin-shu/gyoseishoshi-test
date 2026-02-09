@@ -1,5 +1,5 @@
-site_name: 日本民法 条文對照與白話講解
-site_description: 行政書士試験準備 — 日本民法の条文対照と平易な解説（日本語・繁体字中国語）
+site_name: 行政書士試験 法令學習資料
+site_description: 行政書士試験準備 — 民法・行政法の条文対照と平易な解説（日本語・繁体字中国語）
 
 theme:
   name: material
@@ -51,6 +51,14 @@ nav:
       - 第5章 法律行為: civil-code/book1-general/ch05-juridical-acts.md
       - 第6章 期間の計算: civil-code/book1-general/ch06-periods.md
       - 第7章 時効: civil-code/book1-general/ch07-prescription.md
+  - 行政法 総論:
+      - 第1章 基本原理: admin-law/general-theory/ch01-principles.md
+      - 第2章 行政組織: admin-law/general-theory/ch02-organization.md
+      - 第3章 行政立法: admin-law/general-theory/ch03-legislation.md
+      - 第4章 行政行為: admin-law/general-theory/ch04-admin-acts.md
+      - 第5章 行政裁量: admin-law/general-theory/ch05-discretion.md
+      - 第6章 非権力的行為形式: admin-law/general-theory/ch06-non-coercive.md
+      - 第7章 実効性確保: admin-law/general-theory/ch07-enforcement.md
   - 練習問題 第一編 総則:
       - 第1章 通則: practice/book1-general/ch01-general-rules.md
       - 第2章 人: practice/book1-general/ch02-persons.md
