@@ -51,6 +51,14 @@ nav:
       - 第5章 法律行為: civil-code/book1-general/ch05-juridical-acts.md
       - 第6章 期間の計算: civil-code/book1-general/ch06-periods.md
       - 第7章 時効: civil-code/book1-general/ch07-prescription.md
+  - 練習問題 第一編 総則:
+      - 第1章 通則: practice/book1-general/ch01-general-rules.md
+      - 第2章 人: practice/book1-general/ch02-persons.md
+      - 第3章 法人: practice/book1-general/ch03-juridical-persons.md
+      - 第4章 物: practice/book1-general/ch04-things.md
+      - 第5章 法律行為: practice/book1-general/ch05-juridical-acts.md
+      - 第6章 期間の計算: practice/book1-general/ch06-periods.md
+      - 第7章 時効: practice/book1-general/ch07-prescription.md
 
 markdown_extensions:
   - tables
@@ -65,6 +73,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.mark
   - pymdownx.tasklist:
       custom_checkbox: true
