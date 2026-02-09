@@ -11,6 +11,10 @@
 ## 目前收錄範圍
 
 - **民法第一編 総則**（第 1 条〜第 174 条の 2）— 全 7 章完成
+- **行政法総論** — 理論體系 7 章完成
+- **行政事件訴訟法**（第 1 条〜第 46 条）— 全 5 章完成
+- **行政手続法**（第 1 条〜第 46 条）— 全 5 檔完成（小章節合併）
+- **行政不服審査法**（第 1 条〜第 87 条）— 全 6 章完成
 
 ## 行政法 出題範圍
 
@@ -111,23 +115,52 @@ GitHub Pages 設定：**Settings → Pages → Source: Deploy from a branch → 
 │   │       ├── ch06-periods.md        # 第6章 期間の計算
 │   │       └── ch07-prescription.md   # 第7章 時効
 │   ├── admin-law/
-│   │   └── general-theory/            # 行政法 総論（理論體系）
-│   │       ├── ch01-principles.md     # 第1章 基本原理
-│   │       ├── ch02-organization.md   # 第2章 行政組織
-│   │       ├── ch03-legislation.md    # 第3章 行政立法
-│   │       ├── ch04-admin-acts.md     # 第4章 行政行為
-│   │       ├── ch05-discretion.md     # 第5章 行政裁量
-│   │       ├── ch06-non-coercive.md   # 第6章 非権力的行為形式
-│   │       └── ch07-enforcement.md    # 第7章 実効性確保
+│   │   ├── general-theory/            # 行政法 総論（理論體系）
+│   │   │   ├── ch01-principles.md     # 第1章 基本原理
+│   │   │   ├── ch02-organization.md   # 第2章 行政組織
+│   │   │   ├── ch03-legislation.md    # 第3章 行政立法
+│   │   │   ├── ch04-admin-acts.md     # 第4章 行政行為
+│   │   │   ├── ch05-discretion.md     # 第5章 行政裁量
+│   │   │   ├── ch06-non-coercive.md   # 第6章 非権力的行為形式
+│   │   │   └── ch07-enforcement.md    # 第7章 実効性確保
+│   │   ├── litigation/                # 行政事件訴訟法（條文對照）
+│   │   │   ├── ch01-general.md        # 第1章 総則
+│   │   │   ├── ch02-appeal-litigation.md # 第2章 抗告訴訟
+│   │   │   ├── ch03-party-litigation.md  # 第3章 当事者訴訟
+│   │   │   ├── ch04-public-institutional.md # 第4章 民衆訴訟・機関訴訟
+│   │   │   └── ch05-supplementary.md  # 第5章 補則
+│   │   ├── procedure/                 # 行政手続法（條文對照）
+│   │   │   ├── ch01-general.md        # 第1章 総則
+│   │   │   ├── ch02-application.md    # 第2章 申請に対する処分
+│   │   │   ├── ch03-adverse.md        # 第3章 不利益処分
+│   │   │   ├── ch04-guidance.md       # 第4章 行政指導・処分等の求め
+│   │   │   └── ch05-public-comments.md # 第5章 届出・意見公募手続・補則
+│   │   └── appeal/                    # 行政不服審査法（條文對照）
+│   │       ├── ch01-general.md        # 第1章 総則
+│   │       ├── ch02-review-request.md # 第2章 審査請求
+│   │       ├── ch03-reinvestigation.md # 第3章 再調査の請求
+│   │       ├── ch04-re-appeal.md      # 第4章 再審査請求
+│   │       ├── ch05-council.md        # 第5章 行政不服審査会等
+│   │       └── ch06-supplementary.md  # 第6章 補則
 │   └── practice/
-│       └── book1-general/             # 第一編 総則（練習問題）
-│           ├── ch01-general-rules.md  # 択一式 2題
-│           ├── ch02-persons.md        # 択一式 6題 + 記述式 1題
-│           ├── ch03-juridical-persons.md # 択一式 3題
-│           ├── ch04-things.md         # 択一式 2題
-│           ├── ch05-juridical-acts.md # 択一式 10題 + 記述式 2題
-│           ├── ch06-periods.md        # 択一式 1題
-│           └── ch07-prescription.md   # 択一式 8題 + 記述式 2題
-└── references/
-    └── civil-code.xml                 # e-Gov 官方民法 XML（校正用）
+│       ├── book1-general/             # 民法 第一編 総則（練習問題）
+│       │   ├── ch01-general-rules.md  # 択一式 2題
+│       │   ├── ch02-persons.md        # 択一式 6題 + 記述式 1題
+│       │   ├── ch03-juridical-persons.md # 択一式 3題
+│       │   ├── ch04-things.md         # 択一式 2題
+│       │   ├── ch05-juridical-acts.md # 択一式 10題 + 記述式 2題
+│       │   ├── ch06-periods.md        # 択一式 1題
+│       │   └── ch07-prescription.md   # 択一式 8題 + 記述式 2題
+│       ├── admin-litigation/          # 行政事件訴訟法（練習問題）
+│       ├── admin-procedure/           # 行政手続法（練習問題）
+│       └── admin-appeal/              # 行政不服審査法（練習問題）
+├── references/
+│   ├── civil-code.xml                 # e-Gov 官方民法 XML
+│   ├── 行政事件訴訟法.xml
+│   ├── 行政手続法.xml
+│   ├── 行政不服審査法.xml
+│   ├── 国家賠償法.xml
+│   └── 地方自治法.xml
+└── scripts/
+    └── extract_articles.py            # XML 條文抽出腳本
 ```

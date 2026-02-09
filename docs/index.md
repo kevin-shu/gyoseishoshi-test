@@ -38,6 +38,49 @@
 
 ---
 
+## 行政事件訴訟法（昭和37年法律第139号）
+
+行政書士試験で最も配点が高い個別法。記述式はほぼ毎年この法律から出題される。
+
+| 章 | 條文範圍 | 考試重要度 | 練習問題 |
+|----|----------|-----------|----------|
+| [第1章 総則](admin-law/litigation/ch01-general.md) | 第1条〜第7条 | ★★★ | [練習](practice/admin-litigation/ch01-general.md) |
+| [第2章 抗告訴訟](admin-law/litigation/ch02-appeal-litigation.md) | 第8条〜第38条 | ★★★★ | [練習](practice/admin-litigation/ch02-appeal-litigation.md) |
+| [第3章 当事者訴訟](admin-law/litigation/ch03-party-litigation.md) | 第39条〜第41条 | ★★☆ | [練習](practice/admin-litigation/ch03-party-litigation.md) |
+| [第4章 民衆訴訟・機関訴訟](admin-law/litigation/ch04-public-institutional.md) | 第42条〜第43条 | ★☆☆ | [練習](practice/admin-litigation/ch04-public-institutional.md) |
+| [第5章 補則](admin-law/litigation/ch05-supplementary.md) | 第44条〜第46条 | ★★☆ | [練習](practice/admin-litigation/ch05-supplementary.md) |
+
+---
+
+## 行政手続法（平成5年法律第88号）
+
+行政運営における公正の確保と透明性の向上を目的とする手続法。聴聞と弁明の比較は超頻出。
+
+| 章 | 條文範圍 | 考試重要度 | 練習問題 |
+|----|----------|-----------|----------|
+| [第1章 総則](admin-law/procedure/ch01-general.md) | 第1条〜第4条 | ★★★ | [練習](practice/admin-procedure/ch01-general.md) |
+| [第2章 申請に対する処分](admin-law/procedure/ch02-application.md) | 第5条〜第11条 | ★★★ | [練習](practice/admin-procedure/ch02-application.md) |
+| [第3章 不利益処分](admin-law/procedure/ch03-adverse.md) | 第12条〜第31条 | ★★★★ | [練習](practice/admin-procedure/ch03-adverse.md) |
+| [第4章 行政指導・処分等の求め](admin-law/procedure/ch04-guidance.md) | 第32条〜第36条の3 | ★★★ | [練習](practice/admin-procedure/ch04-guidance.md) |
+| [第5章 届出・意見公募手続・補則](admin-law/procedure/ch05-public-comments.md) | 第37条〜第46条 | ★★☆ | [練習](practice/admin-procedure/ch05-public-comments.md) |
+
+---
+
+## 行政不服審査法（平成26年法律第68号）
+
+行政庁の違法・不当な処分に対する不服申立て制度。平成26年全面改正で審理員制度が新設された。
+
+| 章 | 條文範圍 | 考試重要度 | 練習問題 |
+|----|----------|-----------|----------|
+| [第1章 総則](admin-law/appeal/ch01-general.md) | 第1条〜第8条 | ★★★ | [練習](practice/admin-appeal/ch01-general.md) |
+| [第2章 審査請求](admin-law/appeal/ch02-review-request.md) | 第9条〜第53条 | ★★★★ | [練習](practice/admin-appeal/ch02-review-request.md) |
+| [第3章 再調査の請求](admin-law/appeal/ch03-reinvestigation.md) | 第54条〜第61条 | ★★☆ | [練習](practice/admin-appeal/ch03-reinvestigation.md) |
+| [第4章 再審査請求](admin-law/appeal/ch04-re-appeal.md) | 第62条〜第66条 | ★☆☆ | [練習](practice/admin-appeal/ch04-re-appeal.md) |
+| [第5章 行政不服審査会等](admin-law/appeal/ch05-council.md) | 第67条〜第81条 | ★★☆ | [練習](practice/admin-appeal/ch05-council.md) |
+| [第6章 補則](admin-law/appeal/ch06-supplementary.md) | 第82条〜第87条 | ★★★ | [練習](practice/admin-appeal/ch06-supplementary.md) |
+
+---
+
 ## 凡例
 
 - 【改正】= 法改正で変更された条文
