@@ -45,7 +45,19 @@ mkdocs serve
 
 ## 部署
 
-> TBD
+網站透過 GitHub Pages 部署，使用 `gh-pages` 分支。
+
+```bash
+# 啟動虛擬環境
+source venv/bin/activate
+
+# 建構並部署到 GitHub Pages
+mkdocs gh-deploy
+```
+
+部署完成後網站位於：https://kevin-shu.github.io/gyoseishoshi-test/
+
+GitHub Pages 設定：**Settings → Pages → Source: Deploy from a branch → Branch: `gh-pages` / `/ (root)`**
 
 ## 專案結構
 
@@ -54,15 +66,24 @@ mkdocs serve
 ├── docs/
 │   ├── index.md                       # 首頁（章節索引）
 │   ├── study-plan.md                  # 學習計畫
-│   └── civil-code/
-│       └── book1-general/             # 第一編 総則
-│           ├── ch01-general-rules.md  # 第1章 通則
-│           ├── ch02-persons.md        # 第2章 人
-│           ├── ch03-juridical-persons.md
-│           ├── ch04-things.md         # 第4章 物
-│           ├── ch05-juridical-acts.md # 第5章 法律行為
-│           ├── ch06-periods.md        # 第6章 期間の計算
-│           └── ch07-prescription.md   # 第7章 時効
+│   ├── civil-code/
+│   │   └── book1-general/             # 第一編 総則（條文對照）
+│   │       ├── ch01-general-rules.md  # 第1章 通則
+│   │       ├── ch02-persons.md        # 第2章 人
+│   │       ├── ch03-juridical-persons.md
+│   │       ├── ch04-things.md         # 第4章 物
+│   │       ├── ch05-juridical-acts.md # 第5章 法律行為
+│   │       ├── ch06-periods.md        # 第6章 期間の計算
+│   │       └── ch07-prescription.md   # 第7章 時効
+│   └── practice/
+│       └── book1-general/             # 第一編 総則（練習問題）
+│           ├── ch01-general-rules.md  # 択一式 2題
+│           ├── ch02-persons.md        # 択一式 6題 + 記述式 1題
+│           ├── ch03-juridical-persons.md # 択一式 3題
+│           ├── ch04-things.md         # 択一式 2題
+│           ├── ch05-juridical-acts.md # 択一式 10題 + 記述式 2題
+│           ├── ch06-periods.md        # 択一式 1題
+│           └── ch07-prescription.md   # 択一式 8題 + 記述式 2題
 └── references/
     └── civil-code.xml                 # e-Gov 官方民法 XML（校正用）
 ```
