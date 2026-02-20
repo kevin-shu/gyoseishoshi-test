@@ -51,6 +51,14 @@ nav:
       - 第5章 法律行為: civil-code/book1-general/ch05-juridical-acts.md
       - 第6章 期間の計算: civil-code/book1-general/ch06-periods.md
       - 第7章 時効: civil-code/book1-general/ch07-prescription.md
+  - 民法 第二編 物権:
+      - 第1章 総則: civil-code/book2-property/ch01-general-rules.md
+      - 第2章 占有権: civil-code/book2-property/ch02-possession.md
+      - 第3章 所有権: civil-code/book2-property/ch03-ownership.md
+      - 第4〜6章 用益物権: civil-code/book2-property/ch04-land-rights.md
+      - 第7〜8章 留置権・先取特権: civil-code/book2-property/ch05-security-interests.md
+      - 第9章 質権: civil-code/book2-property/ch06-pledge.md
+      - 第10章 抵当権: civil-code/book2-property/ch07-mortgage.md
   - 行政法 総論:
       - 第1章 基本原理: admin-law/general-theory/ch01-principles.md
       - 第2章 行政組織: admin-law/general-theory/ch02-organization.md
@@ -86,6 +94,14 @@ nav:
       - 第5章 法律行為: practice/book1-general/ch05-juridical-acts.md
       - 第6章 期間の計算: practice/book1-general/ch06-periods.md
       - 第7章 時効: practice/book1-general/ch07-prescription.md
+  - 練習問題 民法第二編 物権:
+      - 第1章 総則（物権変動・登記）: practice/book2-property/ch01-general-rules.md
+      - 第2章 占有権: practice/book2-property/ch02-possession.md
+      - 第3章 所有権: practice/book2-property/ch03-ownership.md
+      - 第4〜6章 用益物権: practice/book2-property/ch04-land-rights.md
+      - 第7〜8章 留置権・先取特権: practice/book2-property/ch05-security-interests.md
+      - 第9章 質権: practice/book2-property/ch06-pledge.md
+      - 第10章 抵当権: practice/book2-property/ch07-mortgage.md
   - 練習問題 行政事件訴訟法:
       - 第1章 総則: practice/admin-litigation/ch01-general.md
       - 第2章 抗告訴訟: practice/admin-litigation/ch02-appeal-litigation.md
@@ -98,6 +114,11 @@ nav:
       - 第3章 不利益処分: practice/admin-procedure/ch03-adverse.md
       - 第4章 行政指導・処分等の求め: practice/admin-procedure/ch04-guidance.md
       - 第5章 届出・意見公募手続・補則: practice/admin-procedure/ch05-public-comments.md
+  - 基礎知識:
+      - 一般知識（政治・経済・社会）: basic-knowledge/ch01-political-economy.md
+      - 行政書士法等関連諸法令: basic-knowledge/ch02-related-statutes.md
+      - 情報通信・個人情報保護: basic-knowledge/ch03-info-privacy.md
+      - 文章理解: basic-knowledge/ch04-reading-comprehension.md
   - 練習問題 行政不服審査法:
       - 第1章 総則: practice/admin-appeal/ch01-general.md
       - 第2章 審査請求: practice/admin-appeal/ch02-review-request.md
@@ -105,6 +126,11 @@ nav:
       - 第4章 再審査請求: practice/admin-appeal/ch04-re-appeal.md
       - 第5章 行政不服審査会等: practice/admin-appeal/ch05-council.md
       - 第6章 補則: practice/admin-appeal/ch06-supplementary.md
+  - 練習問題 基礎知識:
+      - 一般知識: practice/basic-knowledge/ch01-political-economy.md
+      - 行政書士法等関連諸法令: practice/basic-knowledge/ch02-related-statutes.md
+      - 情報通信・個人情報保護: practice/basic-knowledge/ch03-info-privacy.md
+      - 文章理解: practice/basic-knowledge/ch04-reading-comprehension.md
 
 markdown_extensions:
   - tables

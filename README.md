@@ -10,11 +10,24 @@
 
 ## 目前收錄範圍
 
+### 法條教材
+
 - **民法第一編 総則**（第 1 条〜第 174 条の 2）— 全 7 章完成
+- **民法第二編 物権**（第 175 条〜第 398 条の 22）— 全 7 章完成
 - **行政法総論** — 理論體系 7 章完成
 - **行政事件訴訟法**（第 1 条〜第 46 条）— 全 5 章完成
-- **行政手続法**（第 1 条〜第 46 条）— 全 5 檔完成（小章節合併）
+- **行政手続法**（第 1 条〜第 46 条）— 全 5 章完成（小章節合併）
 - **行政不服審査法**（第 1 条〜第 87 条）— 全 6 章完成
+- **基礎知識**（一般知識・諸法令・情報通信・文章理解）— 全 4 章完成
+
+### 練習問題（過去問）
+
+- **民法第一編 総則** — 全 7 章完成（択一式 32 題 + 記述式 5 題）
+- **民法第二編 物権** — 全 7 章完成（択一式 16 題）
+- **行政事件訴訟法** — 全 5 章完成
+- **行政手続法** — 全 5 章完成
+- **行政不服審査法** — 全 6 章完成
+- **基礎知識** — 全 4 章完成
 
 ## 行政法 出題範圍
 
@@ -45,6 +58,30 @@
 | 多肢選択式（穴埋め） | 2 題 | 16 分 |
 | 記述式（40 字） | 1 題 | 20 分 |
 | **合計** | **22 題** | **112 分** |
+
+## 基礎知識科目 出題範圍
+
+基礎知識科目（14 題 / 56 分）有**足切り**：24 分未満即不合格。令和 6 年度起從舊「一般知識等」改名並擴充為四大分類。
+
+### 四大分類與近年出題數
+
+| 分類 | R4 (2022) | R5 (2023) | R6 (2024) | R7 (2025) |
+|------|:---------:|:---------:|:---------:|:---------:|
+| 一般知識（政治・経済・社会） | 7 | 7 | 5 | 6 |
+| 行政書士法等関連諸法令 | — | — | 2 | 2 |
+| 情報通信・個人情報保護 | 4 | 4 | 4 | 3 |
+| 文章理解 | 3 | 3 | 3 | 3 |
+
+> R6 起新增「行政書士法等関連諸法令」，壓縮一般知識出題數。全題 5 肢択一式、每題 4 分。
+
+### 各分類核心考點
+
+| 分類 | 主要出題對象 |
+|------|-------------|
+| 一般知識 | 各國政治體制、日本選挙制度、行政改革、國際組織、GDP・為替、社会保障、少子高齢化、時事問題 |
+| 諸法令 | 行政書士法、戸籍法、住民基本台帳法（條文知識直接出題） |
+| 情報通信・個人情報保護 | 個人情報保護法、情報公開法、公文書管理法、IT 用語、生成 AI、マイナンバー |
+| 文章理解 | 要旨把握・空欄補充・文章並替（評論文、正答率 90% 以上） |
 
 ## 技術
 
@@ -106,14 +143,22 @@ GitHub Pages 設定：**Settings → Pages → Source: Deploy from a branch → 
 │   ├── index.md                       # 首頁（章節索引）
 │   ├── study-plan.md                  # 學習計畫
 │   ├── civil-code/
-│   │   └── book1-general/             # 民法 第一編 総則（條文對照）
-│   │       ├── ch01-general-rules.md  # 第1章 通則
-│   │       ├── ch02-persons.md        # 第2章 人
-│   │       ├── ch03-juridical-persons.md
-│   │       ├── ch04-things.md         # 第4章 物
-│   │       ├── ch05-juridical-acts.md # 第5章 法律行為
-│   │       ├── ch06-periods.md        # 第6章 期間の計算
-│   │       └── ch07-prescription.md   # 第7章 時効
+│   │   ├── book1-general/             # 民法 第一編 総則（條文對照）
+│   │   │   ├── ch01-general-rules.md  # 第1章 通則
+│   │   │   ├── ch02-persons.md        # 第2章 人
+│   │   │   ├── ch03-juridical-persons.md
+│   │   │   ├── ch04-things.md         # 第4章 物
+│   │   │   ├── ch05-juridical-acts.md # 第5章 法律行為
+│   │   │   ├── ch06-periods.md        # 第6章 期間の計算
+│   │   │   └── ch07-prescription.md   # 第7章 時効
+│   │   └── book2-property/            # 民法 第二編 物権（條文對照）
+│   │       ├── ch01-general-rules.md  # 第1章 総則（物権変動・登記）
+│   │       ├── ch02-possession.md     # 第2章 占有権
+│   │       ├── ch03-ownership.md      # 第3章 所有権
+│   │       ├── ch04-land-rights.md    # 第4〜6章 用益物権
+│   │       ├── ch05-security-interests.md # 第7〜8章 留置権・先取特権
+│   │       ├── ch06-pledge.md         # 第9章 質権
+│   │       └── ch07-mortgage.md       # 第10章 抵当権
 │   ├── admin-law/
 │   │   ├── general-theory/            # 行政法 総論（理論體系）
 │   │   │   ├── ch01-principles.md     # 第1章 基本原理
@@ -142,6 +187,11 @@ GitHub Pages 設定：**Settings → Pages → Source: Deploy from a branch → 
 │   │       ├── ch04-re-appeal.md      # 第4章 再審査請求
 │   │       ├── ch05-council.md        # 第5章 行政不服審査会等
 │   │       └── ch06-supplementary.md  # 第6章 補則
+│   ├── basic-knowledge/               # 基礎知識（教材）
+│   │   ├── ch01-political-economy.md  # 一般知識（政治・経済・社会）
+│   │   ├── ch02-related-statutes.md   # 行政書士法等関連諸法令
+│   │   ├── ch03-info-privacy.md       # 情報通信・個人情報保護
+│   │   └── ch04-reading-comprehension.md # 文章理解
 │   └── practice/
 │       ├── book1-general/             # 民法 第一編 総則（練習問題）
 │       │   ├── ch01-general-rules.md  # 択一式 2題
@@ -151,9 +201,18 @@ GitHub Pages 設定：**Settings → Pages → Source: Deploy from a branch → 
 │       │   ├── ch05-juridical-acts.md # 択一式 10題 + 記述式 2題
 │       │   ├── ch06-periods.md        # 択一式 1題
 │       │   └── ch07-prescription.md   # 択一式 8題 + 記述式 2題
+│       ├── book2-property/            # 民法 第二編 物権（練習問題）
+│       │   ├── ch01-general-rules.md  # 択一式 3題
+│       │   ├── ch02-possession.md     # 択一式 2題
+│       │   ├── ch03-ownership.md      # 択一式 2題
+│       │   ├── ch04-land-rights.md    # 択一式 2題
+│       │   ├── ch05-security-interests.md # 択一式 2題
+│       │   ├── ch06-pledge.md         # 択一式 2題
+│       │   └── ch07-mortgage.md       # 択一式 3題
 │       ├── admin-litigation/          # 行政事件訴訟法（練習問題）
 │       ├── admin-procedure/           # 行政手続法（練習問題）
-│       └── admin-appeal/              # 行政不服審査法（練習問題）
+│       ├── admin-appeal/              # 行政不服審査法（練習問題）
+│       └── basic-knowledge/           # 基礎知識（練習問題）
 ├── references/
 │   ├── civil-code.xml                 # e-Gov 官方民法 XML
 │   ├── 行政事件訴訟法.xml
