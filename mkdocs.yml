@@ -60,8 +60,9 @@ nav:
       - 第7〜8章 留置権・先取特権: civil-code/book2-property/ch05-security-interests.md
       - 第9章 質権: civil-code/book2-property/ch06-pledge.md
       - 第10章 抵当権: civil-code/book2-property/ch07-mortgage.md
-  - 民法 第三編 債権（第一章 総則）:
+  - 民法 第三編 債権:
       - 第1章 総則（債権総則）: civil-code/book3-obligations/ch01-general.md
+      - 第2章 契約: civil-code/book3-obligations/ch02-contracts.md
   - 行政法 総論:
       - 第1章 基本原理: admin-law/general-theory/ch01-principles.md
       - 第2章 行政組織: admin-law/general-theory/ch02-organization.md
@@ -105,8 +106,9 @@ nav:
       - 第7〜8章 留置権・先取特権: practice/book2-property/ch05-security-interests.md
       - 第9章 質権: practice/book2-property/ch06-pledge.md
       - 第10章 抵当権: practice/book2-property/ch07-mortgage.md
-  - 練習問題 民法第三編 債権（第一章 総則）:
+  - 練習問題 民法第三編 債権:
       - 第1章 総則（債権総則）: practice/book3-obligations/ch01-general.md
+      - 第2章 契約: practice/book3-obligations/ch02-contracts.md
   - 練習問題 行政事件訴訟法:
       - 第1章 総則: practice/admin-litigation/ch01-general.md
       - 第2章 抗告訴訟: practice/admin-litigation/ch02-appeal-litigation.md
