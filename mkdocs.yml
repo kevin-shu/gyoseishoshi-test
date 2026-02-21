@@ -43,6 +43,7 @@ plugins:
 nav:
   - ホーム: index.md
   - 学習計画: study-plan.md
+  - 記述式 答題戦略: kijutsu-strategy.md
   - 民法 第一編 総則:
       - 第1章 通則: civil-code/book1-general/ch01-general-rules.md
       - 第2章 人: civil-code/book1-general/ch02-persons.md
